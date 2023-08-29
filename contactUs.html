@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaiko Shipping</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styel.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-     <!-- Nav Start -->
-     <section class="sticky-top navigation shadow">
-        <div class="container py-3">
+    <!-- Nav Start -->
+    <section class="sticky-top navigation shadow">
+        <div class="container py-2">
             <div class="d-flex justify-content-between">
-                <div class="">
-                    <img src="img/icons/telephone (1) 1.svg" alt=""> +95 9453 366 669, +95 9763 366 669
+                <div class="nav-ph">
+                    <div class="d-flex">
+                        <div class="">
+                            <img src="img/icons/telephone (1) 1.svg" alt="" class="mx-2"> 
+                        </div>
+                        <div class="">
+                            <p>+95 9453 366 669, +95 9763 366 669</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="d-flex">
-                    <a href=""><img src="img/icons/facebook.svg" class="w-100 px-3" alt=""></a>
-                    <a href=""><img src="img/icons/twitter.svg" class="w-100 px-3" alt=""></a>
-                    <a href=""><img src="img/icons/instagram.svg" class="w-100 px-3" alt=""></a>
-                    <a href=""><img src="img/icons/youtube.svg" class="w-100 px-3" alt=""></a>
+                    <a href=""><img src="img/icons/facebook.svg" class=" px-3  mb-nav-img" alt=""></a>
+                    <a href=""><img src="img/icons/twitter.svg" class=" px-3  mb-nav-img" alt=""></a>
+                    <a href=""><img src="img/icons/instagram.svg" class=" px-3  mb-nav-img" alt=""></a>
+                    <a href=""><img src="img/icons/youtube.svg" class=" px-3  mb-nav-img" alt=""></a>
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-sm navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
-                <div class="d-flex justify-content-between">
-                    <img src="img/Group 4.png" alt="">
+                <div class="d-flex justify-content-between w-mobile">
+                   <a href="" class="navbar-brand"><img src="img/Group 4.png" alt="" class="w-100" class="brand-logo" alt="logo"></a>
                     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -37,22 +46,22 @@
                     <div class="collapse navbar-collapse " id="collapsibleNavId">
                         <ul class="navbar-nav justify-content-between">
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="index.html" >Home </a>
+                                <a class="nav-link" href="index.html" aria-current="page">Home <span
+                                        class="visually-hidden">(current)</span></a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="aboutUs.html" aria-current="page" >About Us</a>
+                                <a class="nav-link" href="aboutUs.html">About Us</a>
                             </li>
                             <li class="nav-item dropdown mx-3">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">Our Services</a>
+                                <a href="" class="nav-link dropdown-toggle"  id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Our Services</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownId">
                                     <a class="dropdown-item" href="crew.html">Crew Manning Services</a>
                                     <a class="dropdown-item" href="training.html">Training & Management</a>
                                 </div>
                             </li>
-                            <li class="nav-item ">
-                                <a class="nav-link active" href="contactUs.html">Contact Us<span
-                                    class="visually-hidden">(current)</span></a>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active" href="contactUs.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -108,7 +117,7 @@
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1350.046102647515!2d96.1715283098466!3d16.85079541528983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1smy!2smm!4v1693278125112!5m2!1smy!2smm" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1350.046102647515!2d96.1715283098466!3d16.85079541528983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1smy!2smm!4v1693278125112!5m2!1smy!2smm" class="w-100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -120,13 +129,13 @@
            <form action="">
                 <div class="row">
                     <div class="col-md-4">
-                        <input type="text" name="name" id="" placeholder="Complate Name" class="form-control">
+                        <input type="text" name="name" id="" placeholder="Complate Name" class="form-control mt-2">
                     </div>
                     <div class="col-md-4">
-                        <input type="text" name="email" id="" placeholder="Email Address" class="form-control">
+                        <input type="text" name="email" id="" placeholder="Email Address" class="form-control mt-2">
                     </div>
                     <div class="col-md-4">
-                        <input type="text" name="number" id="" placeholder="Phone No" class="form-control">
+                        <input type="text" name="number" id="" placeholder="Phone No" class="form-control mt-2">
                     </div>
                     <div class="col-md-12 mt-3">
                         <textarea name="message" id="" cols="30" rows="5" placeholder="Message" class="form-control message"></textarea>
@@ -141,73 +150,75 @@
     </section>
     <!-- End Form -->
 
-      <!-- Footer -->
-      <footer>
-        <section class="foot">
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col-md-2">
-                        <img src="img/imgs/logo.png" alt="" class="w-100">
+   <!-- Footer -->
+   <footer>
+    <section class="foot">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-2 col-md-6 align-self-center cz-center">
+                    <img src="img/imgs/logo.png" alt="" class="foot-image">
+                </div>
+                <div class="col-lg-4 col-md-6 cz-center">
+                    <h5>Contact Us</h5>
+                    <div class="d-flex">
+                        <div>
+                            <img src="img/icons/location.svg" alt="" class="me-2">
+                        </div>
+                        <p>No.84, First Floor, Yamonar (4) Street, Yamonar (2) Quater, Dawbon Township, Yangon.</p>
                     </div>
-                    <div class="col-md-4">
-                        <h5>Contact Us</h5>
-                        <div class="d-flex">
-                            <div>
-                                <img src="img/icons/location.svg" alt="" class="me-2">
-                            </div>
-                            <p>No.84, First Floor, Yamonar (4) Street, Yamonar (2) Quater, Dawbon Township, Yangon.</p>
+                    <div class="d-flex">
+                        <div>
+                            <img src="img/icons/phone.svg" alt="" class="me-2">
                         </div>
-                        <div class="d-flex">
-                            <div>
-                                <img src="img/icons/phone.svg" alt="" class="me-2">
-                            </div>
-                            <p>+95 9453 366 669, +95 9763 366 669</p>
-                        </div>
-                        <div class="d-flex">
-                            <div>
-                                <img src="img/icons/send (1).svg" alt="" class="me-2">
-                            </div>
-                            <p>kaikoshipping@gmail.com
-                                james@kaikocrewservices.com
-                                info@kaikocrewservices.com</p>
-                        </div>
+                        <p>+95 9453 366 669, +95 9763 366 669</p>
                     </div>
-                    <div class="col-md-3">
-                        <h5>Links</h5>
-                        <ul>
-                            <li>
-                                <a href="index.html" class="nav-link">Home</a>
-                            </li>
-                            <li>
-                                <a href="aboutUs.html" class="nav-link">About Us</a>
-                            </li>
-                            <li>
-                                <a href="crew.html" class="nav-link">Crew Manning Services</a>
-                            </li>
-                            <li>
-                                <a href="training.html" class="nav-link">Training & Development</a>
-                            </li>
-                            <li>
-                                <a href="contactUs.html" class="nav-link">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="img/imgs/ISO LOGO 1.png" alt="" class="w-100">
-                        <div class="d-flex justify-content-center mt-3">
-                            <img src="img/icons/green/facebook.svg" alt="" class="mx-2">
-                            <img src="img/icons/green/twitter.svg" alt="" class="mx-2">
-                            <img src="img/icons/green/instagram.svg" alt="" class="mx-2">
-                            <img src="img/icons/green/youtube.svg" alt="" class="mx-2">
+                    <div class="d-flex">
+                        <div>
+                            <img src="img/icons/send (1).svg" alt="" class="me-2">
                         </div>
+                        <p>kaikoshipping@gmail.com
+                            james@kaikocrewservices.com
+                            info@kaikocrewservices.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 cz-center">
+                    <h5>Links</h5>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="aboutus.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="crew.html">Crew Manning Services</a>
+                        </li>
+                        <li>
+                            <a href="training.html">Training & Development</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 cz-center">
+                    <img src="img/imgs/ISO LOGO 1.png" alt="" class="w-100">
+                    <div class="d-flex justify-content-center mt-3">
+                        <img src="img/icons/green/facebook.svg" alt="" class="mx-2">
+                        <img src="img/icons/green/twitter.svg" alt="" class="mx-2">
+                        <img src="img/icons/green/instagram.svg" alt="" class="mx-2">
+                        <img src="img/icons/green/youtube.svg" alt="" class="mx-2">
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="copyright">
-            <p class="mb-0">All copyrights reserved @ 2023 www.kaikocrewservice.com.mm -  Designed & Developed by Host Myanmar</p>
-        </section>
-      </footer>
-    <script src="js/bootstrap.min.js"></script>
+        </div>
+    </section>
+    <section class="copyright">
+        <p class="mb-0">All copyrights reserved @ 2023 www.kaikocrewservice.com.mm - Designed & Developed by Host
+            Myanmar</p>
+    </section>
+</footer>
+<script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
